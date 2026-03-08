@@ -25,7 +25,7 @@
             </div>
 
             <div class="icon-container">
-                <img src="../assets/uniapp-icon.webp" alt="UniApp Icon" class="app-icon" onerror="this.src='https://via.placeholder.com/120/1f1f2e/ffffff?text=UniApp'">
+                <img src="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/assets/uniapp-icon.webp" alt="UniApp Icon" class="app-icon" onerror="this.src='https://via.placeholder.com/120/1f1f2e/ffffff?text=UniApp'">
             </div>
             
             <h1 class="title">UniApp</h1>
@@ -117,7 +117,7 @@
             document.getElementById('btn-beta').style.display = channel === 'beta' ? 'flex' : 'none';
         }
 
-        fetch('../update.json')
+        fetch('https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/update.json')
             .then(res => res.json())
             .then(json => {
                 if(json && json.channels) {
