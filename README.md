@@ -16,9 +16,9 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk"><img alt="Download APK" src="https://img.shields.io/badge/Download-APK-1f6f5f?style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk"><img alt="Stable APK" src="https://img.shields.io/badge/Stable-APK-1f6f5f?style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk"><img alt="Beta APK" src="https://img.shields.io/badge/Beta-APK-d97706?style=for-the-badge"></a>
   <a href="./update.json"><img alt="Update Manifest" src="https://img.shields.io/badge/Update-JSON-cb5a2e?style=for-the-badge"></a>
-  <a href="https://github.com/Anto426-Project/Uniapp"><img alt="Source Repo" src="https://img.shields.io/badge/Source-UniApp-1b1f23?style=for-the-badge"></a>
 </p>
 
 ## Overview
@@ -37,7 +37,7 @@ It is intended to stay small, stable, and machine-friendly:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Current version | `1.3.3` |
+| Current version | `1.3.4-beta` |
 | Release channel | `beta` |
 | Version code | `1` |
 | Published at | `2026-03-08` |
@@ -52,13 +52,15 @@ It is intended to stay small, stable, and machine-friendly:
 ## Quick Links
 
 - [Download current APK](https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk)
+- [Current channel metadata](./src/release/beta/output-metadata.json)
+- [Current channel APK path](./src/release/beta/androidApp-release.apk)
+- [Stable APK](https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk)
+- [Beta APK](https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk)
 - [Open update manifest](./update.json)
-- [Open build metadata](./src/release/beta/output-metadata.json)
-- [Open source repository](https://github.com/Anto426-Project/Uniapp)
 
 ## Release Notes
 
-Bug fixes.
+Add support for 2 update channels: stable and beta.
 
 ## Repository Layout
 
@@ -105,4 +107,3 @@ Each publish refreshes:
 
 - This repository is a release endpoint, not the main development repository.
 - Published files can change on every new release.
-- For source code, issues, and feature work, use `https://github.com/Anto426-Project/Uniapp`.
