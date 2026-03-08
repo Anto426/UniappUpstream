@@ -20,8 +20,8 @@
         <div class="glass-card">
             <div class="channel-selector">
                 <div class="selector-bg" id="selector-bg"></div>
-                <button class="channel-btn active" id="tab-stable" onclick="setChannel('stable')">Stabile</button>
-                <button class="channel-btn" id="tab-beta" onclick="setChannel('beta')">Beta</button>
+                <button class="channel-btn active" id="tab-beta" onclick="setChannel('beta')">Beta</button>
+                <button class="channel-btn" id="tab-stable" onclick="setChannel('stable')">Stabile</button>
             </div>
 
             <div class="icon-container">
@@ -62,22 +62,22 @@
             </div>
 
             <div class="download-options">
-                <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk" class="download-btn download-stable" id="btn-stable">
-                    <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    Scarica APK Stabile
-                </a>
-
-                <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk" class="download-btn download-beta" id="btn-beta" style="display: none;">
+                <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk" class="download-btn download-beta" id="btn-beta">
                     <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                         <polyline points="7 10 12 15 17 10"></polyline>
                         <line x1="12" y1="15" x2="12" y2="3"></line>
                     </svg>
                     Scarica APK Beta
+                </a>
+
+                <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk" class="download-btn download-stable" id="btn-stable" style="display: none;">
+                    <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Scarica APK Stabile
                 </a>
             </div>
             
@@ -103,7 +103,7 @@
             document.getElementById('tab-beta').classList.toggle('active', channel === 'beta');
             
             const bg = document.getElementById('selector-bg');
-            if(channel === 'stable') {
+            if(channel === 'beta') {
                 bg.style.transform = 'translateX(0)';
             } else {
                 bg.style.transform = 'translateX(100%)';
@@ -131,7 +131,7 @@
                         const d = new Date(json.channels.beta.release.publishedAt);
                         if (!isNaN(d)) releaseData.beta.date = d.toLocaleDateString('it-IT', { day: '2-digit', month: 'short', year: 'numeric' });
                     }
-                    const activeTab = document.getElementById('tab-stable').classList.contains('active') ? 'stable' : 'beta';
+                    const activeTab = document.getElementById('tab-beta').classList.contains('active') ? 'beta' : 'stable';
                     setChannel(activeTab);
                 }
             })
