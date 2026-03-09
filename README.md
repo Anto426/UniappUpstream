@@ -37,7 +37,7 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.3.6-beta` |
+| Versione corrente | `1.3.7-beta` |
 | Canale release | `beta` |
 | Version code | `1` |
 | Pubblicata il | `2026-03-09` |
@@ -60,7 +60,7 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 
 ## Note Di Rilascio
 
-Reduce min sdk version to 29.
+Fix some UI issues.
 
 ## Struttura Repository
 
