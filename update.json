@@ -13,14 +13,14 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.3.4-beta",
+        "latestVersion": "1.3.5-beta",
         "minSupportedVersion": "1.1.0",
         "mandatory": false,
         "releaseChannel": "beta",
         "downloadUrl": "https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk",
-        "notes": "Add support for 2 update channels: stable and beta.",
+        "notes": "Reduce min sdk version to 29.",
         "publishedAt": "2026-03-09",
-        "buildCommit": "435e8df9a8d382bdb0ad97be266602d02e6ffaac",
+        "buildCommit": "7eeb7e5ebd24a231db00f48793172a819ea0e38a",
         "appEnabled": true
       }
     }
