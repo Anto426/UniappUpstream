@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img alt="Beta build" src="https://img.shields.io/badge/Channel-Beta-d97706?style=for-the-badge">
+  <img alt="Beta build" src="https://img.shields.io/static/v1?label=&message=CHANNEL%20BETA&color=d97706&style=for-the-badge">
 </p>
 
 
@@ -16,9 +16,9 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk"><img alt="Stable APK" src="https://img.shields.io/badge/Stable-APK-1f6f5f?style=for-the-badge"></a>
-  <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk"><img alt="Beta APK" src="https://img.shields.io/badge/Beta-APK-d97706?style=for-the-badge"></a>
-  <a href="./update.json"><img alt="Update Manifest" src="https://img.shields.io/badge/Update-JSON-cb5a2e?style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk"><img alt="Stable APK" src="https://img.shields.io/static/v1?label=&message=STABLE%20APK&color=1f6f5f&style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk"><img alt="Beta APK" src="https://img.shields.io/static/v1?label=&message=BETA%20APK&color=d97706&style=for-the-badge"></a>
+  <a href="./update.json"><img alt="Update Manifest" src="https://img.shields.io/static/v1?label=&message=UPDATE%20JSON&color=cb5a2e&style=for-the-badge"></a>
 </p>
 
 ## Overview
