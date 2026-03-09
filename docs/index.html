@@ -127,7 +127,7 @@
                         if (!isNaN(d)) releaseData.stable.date = d.toLocaleDateString('it-IT', { day: '2-digit', month: 'short', year: 'numeric' });
                     }
                     if (json.channels.beta?.release) {
-                        releaseData.beta.version = json.channels.beta.release.latestVersion + "-beta";
+                        releaseData.beta.version = json.channels.beta.release.latestVersion;
                         const d = new Date(json.channels.beta.release.publishedAt);
                         if (!isNaN(d)) releaseData.beta.date = d.toLocaleDateString('it-IT', { day: '2-digit', month: 'short', year: 'numeric' });
                     }
