@@ -20,7 +20,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk",
         "notes": "Reduce min sdk version to 29.",
         "publishedAt": "2026-03-09",
-        "buildCommit": "04627a5fb13af46ba9c4f16adbf1a47c5cba02fd",
+        "buildCommit": "bbdca8bcd61cc8bd4c8f4c18f19519e0463941fd",
         "appEnabled": true
       }
     }
