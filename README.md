@@ -37,17 +37,17 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.4.0-beta` |
+| Versione corrente | `1.4.5-beta` |
 | Canale release | `beta` |
 | Version code | `1` |
 | Pubblicata il | `2026-03-10` |
-| Versione minima supportata | `1.1.0` |
-| Aggiornamento obbligatorio | `false` |
+| Versione minima supportata | `1.4.5-beta` |
+| Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
 | File APK | `src/release/beta/androidApp-release.apk` |
-| Dimensione APK | `98.6 MB` |
+| Dimensione APK | `99.1 MB` |
 
 ## Link Rapidi
 
@@ -60,7 +60,19 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 
 ## Note Di Rilascio
 
-Reduce min sdk version to 29.
+Changelog completo (06-10 Mar 2026):
+- Nuove schermate Profilo: Dispositivi connessi, Dettagli Studente, QR Studente e Piano di Studio.
+- Backend ristrutturato con data manager, parser e fetch component dedicati.
+- Prenotazione appelli: disponibilita, booking e gestione parametri migliorata.
+- Presenze: riepiloghi per corso, scanner QR nativo e geolocalizzazione con gestione permessi.
+- News, Contatti e Statistiche rifinite con filtri migliori e UI piu chiara.
+- Refactor di Settings e AppLock con miglioramenti su sicurezza e leggibilita.
+- Sistema aggiornamenti potenziato: canali Stable/Beta, parsing manifest evoluto e policy versione minima.
+- CI/CD GitHub Actions: build, signing, release per canale, metadata e README automatici.
+- Migliorata la gestione di badge e link download dinamici nelle release.
+- Versioning allineato nel ciclo: 1.2.0 -> 1.2.1 -> 1.3.1 -> 1.3.2 -> 1.3.4 -> 1.3.5-beta -> 1.4.0-beta.
+- UI e tema rifiniti in piu schermate con accenti, layout e componenti riusabili.
+- Notifiche rafforzate: deduplica, tracking baseline, controllo sessione e news in background.
 
 ## Struttura Repository
 
