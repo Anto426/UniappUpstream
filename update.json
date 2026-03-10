@@ -8,7 +8,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk",
         "notes": "Bug fixes.",
         "publishedAt": "2026-03-08",
-        "appEnabled": false
+        "appEnabled": true
       }
     },
     "beta": {
