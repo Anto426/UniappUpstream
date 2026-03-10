@@ -21,7 +21,7 @@
         "notes": "Reduce min sdk version to 29.",
         "publishedAt": "2026-03-10",
         "buildCommit": "56a474c128b7f6a8da31346039ed418403c195a8",
-        "appEnabled": false
+        "appEnabled": true
       }
     }
   }
