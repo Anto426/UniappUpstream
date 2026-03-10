@@ -13,7 +13,7 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.4.1-beta",
+        "latestVersion": "1.4.0-beta",
         "minSupportedVersion": "1.1.0",
         "mandatory": true,
         "releaseChannel": "beta",
