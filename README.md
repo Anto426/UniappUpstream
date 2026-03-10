@@ -37,17 +37,17 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.3.8-beta` |
+| Versione corrente | `1.4.0-beta` |
 | Canale release | `beta` |
 | Version code | `1` |
-| Pubblicata il | `2026-03-09` |
+| Pubblicata il | `2026-03-10` |
 | Versione minima supportata | `1.1.0` |
 | Aggiornamento obbligatorio | `false` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
 | File APK | `src/release/beta/androidApp-release.apk` |
-| Dimensione APK | `98.3 MB` |
+| Dimensione APK | `98.6 MB` |
 
 ## Link Rapidi
 
@@ -60,7 +60,7 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 
 ## Note Di Rilascio
 
-Fix some UI issues.
+Reduce min sdk version to 29.
 
 ## Struttura Repository
 
