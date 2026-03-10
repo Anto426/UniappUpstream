@@ -15,7 +15,7 @@
       "release": {
         "latestVersion": "1.4.1-beta",
         "minSupportedVersion": "1.1.0",
-        "mandatory": true,
+        "mandatory": false,
         "releaseChannel": "beta",
         "downloadUrl": "https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk",
         "notes": "Reduce min sdk version to 29.",
