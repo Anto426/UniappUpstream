@@ -39,7 +39,7 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | Repository | `Anto426-Project/UniappUpstream` |
 | Versione corrente | `1.4.8-beta` |
 | Canale release | `beta` |
-| Version code | `5` |
+| Version code | `6` |
 | Pubblicata il | `2026-03-11` |
 | Versione minima supportata | `1.4.5-beta` |
 | Aggiornamento obbligatorio | `false` |
@@ -47,7 +47,7 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
 | File APK | `src/release/beta/androidApp-release.apk` |
-| Dimensione APK | `99.1 MB` |
+| Dimensione APK | `99.5 MB` |
 
 ## Link Rapidi
 
