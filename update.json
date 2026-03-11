@@ -13,14 +13,14 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.4.6-beta",
+        "latestVersion": "1.4.7-beta",
         "minSupportedVersion": "1.4.5-beta",
         "mandatory": false,
         "releaseChannel": "beta",
         "downloadUrl": "https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk",
         "notes": "Changelog 11 Mar 2026:\n- Home tasse: sezione In Evidenza ora mostra la scadenza non pagata piu vicina.\n- Tasse: ordinamento rate corretto per data crescente con gestione date non valide.\n- Notifiche news: rimosso il conteggio, ora mostrano una preview breve del contenuto.\n- Trasporti prenotazioni: nascosto il bottone elimina per prenotazioni del giorno corrente.\n- Trasporti lista: ordinamento visuale corretto, prima Andata poi Ritorno.\n- Nuova prenotazione trasporti (solo UI): calendario bloccato da domani a +15 giorni e date gia prenotate non selezionabili.\n- Nuova prenotazione trasporti (solo UI): aggiunta selezione multipla direzioni.\n- Nuova prenotazione trasporti: funzione conferma disattivata con messaggio di indisponibilita API.",
         "publishedAt": "2026-03-11",
-        "buildCommit": "5e97add742ba69f56f7598303bb6ca28f5108eab",
+        "buildCommit": "57faf7eb7bb55017401c24b3b2de76a3c22b7f41",
         "appEnabled": true
       }
     }

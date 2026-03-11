@@ -37,9 +37,9 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.4.6-beta` |
+| Versione corrente | `1.4.7-beta` |
 | Canale release | `beta` |
-| Version code | `2` |
+| Version code | `3` |
 | Pubblicata il | `2026-03-11` |
 | Versione minima supportata | `1.4.5-beta` |
 | Aggiornamento obbligatorio | `false` |
