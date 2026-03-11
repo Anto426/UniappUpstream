@@ -37,12 +37,12 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.4.5-beta` |
+| Versione corrente | `1.4.6-beta` |
 | Canale release | `beta` |
-| Version code | `1` |
-| Pubblicata il | `2026-03-10` |
+| Version code | `2` |
+| Pubblicata il | `2026-03-11` |
 | Versione minima supportata | `1.4.5-beta` |
-| Aggiornamento obbligatorio | `true` |
+| Aggiornamento obbligatorio | `false` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
@@ -60,19 +60,15 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 
 ## Note Di Rilascio
 
-Changelog completo (06-10 Mar 2026):
-- Nuove schermate Profilo: Dispositivi connessi, Dettagli Studente, QR Studente e Piano di Studio.
-- Backend ristrutturato con data manager, parser e fetch component dedicati.
-- Prenotazione appelli: disponibilita, booking e gestione parametri migliorata.
-- Presenze: riepiloghi per corso, scanner QR nativo e geolocalizzazione con gestione permessi.
-- News, Contatti e Statistiche rifinite con filtri migliori e UI piu chiara.
-- Refactor di Settings e AppLock con miglioramenti su sicurezza e leggibilita.
-- Sistema aggiornamenti potenziato: canali Stable/Beta, parsing manifest evoluto e policy versione minima.
-- CI/CD GitHub Actions: build, signing, release per canale, metadata e README automatici.
-- Migliorata la gestione di badge e link download dinamici nelle release.
-- Versioning allineato nel ciclo: 1.2.0 -> 1.2.1 -> 1.3.1 -> 1.3.2 -> 1.3.4 -> 1.3.5-beta -> 1.4.0-beta.
-- UI e tema rifiniti in piu schermate con accenti, layout e componenti riusabili.
-- Notifiche rafforzate: deduplica, tracking baseline, controllo sessione e news in background.
+Changelog 11 Mar 2026:
+- Home tasse: sezione In Evidenza ora mostra la scadenza non pagata piu vicina.
+- Tasse: ordinamento rate corretto per data crescente con gestione date non valide.
+- Notifiche news: rimosso il conteggio, ora mostrano una preview breve del contenuto.
+- Trasporti prenotazioni: nascosto il bottone elimina per prenotazioni del giorno corrente.
+- Trasporti lista: ordinamento visuale corretto, prima Andata poi Ritorno.
+- Nuova prenotazione trasporti (solo UI): calendario bloccato da domani a +15 giorni e date gia prenotate non selezionabili.
+- Nuova prenotazione trasporti (solo UI): aggiunta selezione multipla direzioni.
+- Nuova prenotazione trasporti: funzione conferma disattivata con messaggio di indisponibilita API.
 
 ## Struttura Repository
 

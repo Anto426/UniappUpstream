@@ -13,14 +13,14 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.4.5-beta",
+        "latestVersion": "1.4.6-beta",
         "minSupportedVersion": "1.4.5-beta",
-        "mandatory": true,
+        "mandatory": false,
         "releaseChannel": "beta",
         "downloadUrl": "https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk",
-        "notes": "Changelog completo (06-10 Mar 2026):\n- Nuove schermate Profilo: Dispositivi connessi, Dettagli Studente, QR Studente e Piano di Studio.\n- Backend ristrutturato con data manager, parser e fetch component dedicati.\n- Prenotazione appelli: disponibilita, booking e gestione parametri migliorata.\n- Presenze: riepiloghi per corso, scanner QR nativo e geolocalizzazione con gestione permessi.\n- News, Contatti e Statistiche rifinite con filtri migliori e UI piu chiara.\n- Refactor di Settings e AppLock con miglioramenti su sicurezza e leggibilita.\n- Sistema aggiornamenti potenziato: canali Stable/Beta, parsing manifest evoluto e policy versione minima.\n- CI/CD GitHub Actions: build, signing, release per canale, metadata e README automatici.\n- Migliorata la gestione di badge e link download dinamici nelle release.\n- Versioning allineato nel ciclo: 1.2.0 -> 1.2.1 -> 1.3.1 -> 1.3.2 -> 1.3.4 -> 1.3.5-beta -> 1.4.0-beta.\n- UI e tema rifiniti in piu schermate con accenti, layout e componenti riusabili.\n- Notifiche rafforzate: deduplica, tracking baseline, controllo sessione e news in background.",
-        "publishedAt": "2026-03-10",
-        "buildCommit": "4c900f2f956b7a34182e1ffd14a1f3b6c6b055e9",
+        "notes": "Changelog 11 Mar 2026:\n- Home tasse: sezione In Evidenza ora mostra la scadenza non pagata piu vicina.\n- Tasse: ordinamento rate corretto per data crescente con gestione date non valide.\n- Notifiche news: rimosso il conteggio, ora mostrano una preview breve del contenuto.\n- Trasporti prenotazioni: nascosto il bottone elimina per prenotazioni del giorno corrente.\n- Trasporti lista: ordinamento visuale corretto, prima Andata poi Ritorno.\n- Nuova prenotazione trasporti (solo UI): calendario bloccato da domani a +15 giorni e date gia prenotate non selezionabili.\n- Nuova prenotazione trasporti (solo UI): aggiunta selezione multipla direzioni.\n- Nuova prenotazione trasporti: funzione conferma disattivata con messaggio di indisponibilita API.",
+        "publishedAt": "2026-03-11",
+        "buildCommit": "5e97add742ba69f56f7598303bb6ca28f5108eab",
         "appEnabled": true
       }
     }
