@@ -13,16 +13,16 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.6.0-beta",
-        "latestVersionCode": 160,
-        "minSupportedVersion": "1.6.0-beta",
-        "minSupportedVersionCode": 160,
+        "latestVersion": "1.6.1-beta",
+        "latestVersionCode": 161,
+        "minSupportedVersion": "1.6.1-beta",
+        "minSupportedVersionCode": 161,
         "mandatory": true,
         "releaseChannel": "beta",
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release.apk",
         "notes": "Changelog 12 Mar 2026:\n- Animazioni migliorate per una maggiore fluidità.",
         "publishedAt": "2026-03-12",
-        "buildCommit": "47f010eba4bd7e271845939026bde4141ce5f90c",
+        "buildCommit": "16025934a8849c07160674f6653099113e8aff3d",
         "appEnabled": true
       }
     }

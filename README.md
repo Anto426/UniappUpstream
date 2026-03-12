@@ -37,11 +37,11 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.6.0-beta` |
+| Versione corrente | `1.6.1-beta` |
 | Canale release | `beta` |
-| Version code | `160` |
+| Version code | `161` |
 | Pubblicata il | `2026-03-12` |
-| Versione minima supportata | `1.6.0-beta` |
+| Versione minima supportata | `1.6.1-beta` |
 | Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
