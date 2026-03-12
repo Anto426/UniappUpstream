@@ -11,8 +11,8 @@
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 159,
-      "versionName": "1.5.9-beta",
+      "versionCode": 160,
+      "versionName": "1.6.0-beta",
       "outputFile": "androidApp-release.apk"
     }
   ],
