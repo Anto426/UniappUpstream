@@ -13,14 +13,14 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.4.8-beta",
-        "minSupportedVersion": "1.4.5-beta",
-        "mandatory": false,
+        "latestVersion": "1.5.2-beta",
+        "minSupportedVersion": "1.5.0-beta",
+        "mandatory": true,
         "releaseChannel": "beta",
         "downloadUrl": "https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk",
-        "notes": "Changelog 11 Mar 2026:\n- Home tasse: sezione In Evidenza ora mostra la scadenza non pagata piu vicina.\n- Tasse: ordinamento rate corretto per data crescente con gestione date non valide.\n- Notifiche news: rimosso il conteggio, ora mostrano una preview breve del contenuto.\n- Trasporti prenotazioni: nascosto il bottone elimina per prenotazioni del giorno corrente.\n- Trasporti lista: ordinamento visuale corretto, prima Andata poi Ritorno.\n- Nuova prenotazione trasporti (solo UI): calendario bloccato da domani a +15 giorni e date gia prenotate non selezionabili.\n- Nuova prenotazione trasporti (solo UI): aggiunta selezione multipla direzioni.\n- Nuova prenotazione trasporti: funzione conferma disattivata con messaggio di indisponibilita API.",
-        "publishedAt": "2026-03-11",
-        "buildCommit": "123b05454a970f03995ce55fa1abc389f0bc856e",
+        "notes": "Changelog 12 Mar 2026:\n- Architettura: migrazione del layer `presentation` verso `domain/logic` con rinomina moduli e test correlati.\n- Dati backend: introdotte policy di accesso/cache (`CACHE_FIRST`, `REMOTE_FIRST`, `STALE_WHILE_REVALIDATE`, `NETWORK_ONLY`) con merge e integrity check.\n- Sicurezza: aggiunta migrazione dati utente verso cifratura applicativa e migliorata gestione persistenza sicura.\n- Stato app: refactor del coordinamento globale con transizioni animate e gestione loading unificata.\n- UI/Auth: aggiornate schermate Login, AppLock, AppBlocked, ForcedUpdate e Beta enrollment con fallback null-safe e UX migliorata.\n- Navigazione/UI: introdotti `AppSceneContainer`, `AppMotion`, miglioramenti AppTopBar e BottomBar per animazioni piu fluide.\n- Localizzazione: conversione estesa di stringhe hardcoded in `stringResource` + aggiornamento `strings.xml`.\n- API remote: uniformati messaggi di errore e fallback localizzati su didattica, feature, survey, transport e update.\n- Notifiche/background: migliorati coordinator notifiche, worker sync e gestione canali Android.\n- Multi-piattaforma: aggiunti `AppScreenControl` e `RuntimeLogcatRecorder` per Android/iOS.",
+        "publishedAt": "2026-03-12",
+        "buildCommit": "2d29de81cb6b3dc0b077e29aad711a413dae04c9",
         "appEnabled": true
       }
     }

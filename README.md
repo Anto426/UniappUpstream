@@ -37,17 +37,17 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.4.8-beta` |
+| Versione corrente | `1.5.2-beta` |
 | Canale release | `beta` |
-| Version code | `6` |
-| Pubblicata il | `2026-03-11` |
-| Versione minima supportata | `1.4.5-beta` |
-| Aggiornamento obbligatorio | `false` |
+| Version code | `9` |
+| Pubblicata il | `2026-03-12` |
+| Versione minima supportata | `1.5.0-beta` |
+| Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
 | File APK | `src/release/beta/androidApp-release.apk` |
-| Dimensione APK | `99.5 MB` |
+| Dimensione APK | `100.3 MB` |
 
 ## Link Rapidi
 
@@ -60,15 +60,17 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 
 ## Note Di Rilascio
 
-Changelog 11 Mar 2026:
-- Home tasse: sezione In Evidenza ora mostra la scadenza non pagata piu vicina.
-- Tasse: ordinamento rate corretto per data crescente con gestione date non valide.
-- Notifiche news: rimosso il conteggio, ora mostrano una preview breve del contenuto.
-- Trasporti prenotazioni: nascosto il bottone elimina per prenotazioni del giorno corrente.
-- Trasporti lista: ordinamento visuale corretto, prima Andata poi Ritorno.
-- Nuova prenotazione trasporti (solo UI): calendario bloccato da domani a +15 giorni e date gia prenotate non selezionabili.
-- Nuova prenotazione trasporti (solo UI): aggiunta selezione multipla direzioni.
-- Nuova prenotazione trasporti: funzione conferma disattivata con messaggio di indisponibilita API.
+Changelog 12 Mar 2026:
+- Architettura: migrazione del layer `presentation` verso `domain/logic` con rinomina moduli e test correlati.
+- Dati backend: introdotte policy di accesso/cache (`CACHE_FIRST`, `REMOTE_FIRST`, `STALE_WHILE_REVALIDATE`, `NETWORK_ONLY`) con merge e integrity check.
+- Sicurezza: aggiunta migrazione dati utente verso cifratura applicativa e migliorata gestione persistenza sicura.
+- Stato app: refactor del coordinamento globale con transizioni animate e gestione loading unificata.
+- UI/Auth: aggiornate schermate Login, AppLock, AppBlocked, ForcedUpdate e Beta enrollment con fallback null-safe e UX migliorata.
+- Navigazione/UI: introdotti `AppSceneContainer`, `AppMotion`, miglioramenti AppTopBar e BottomBar per animazioni piu fluide.
+- Localizzazione: conversione estesa di stringhe hardcoded in `stringResource` + aggiornamento `strings.xml`.
+- API remote: uniformati messaggi di errore e fallback localizzati su didattica, feature, survey, transport e update.
+- Notifiche/background: migliorati coordinator notifiche, worker sync e gestione canali Android.
+- Multi-piattaforma: aggiunti `AppScreenControl` e `RuntimeLogcatRecorder` per Android/iOS.
 
 ## Struttura Repository
 
