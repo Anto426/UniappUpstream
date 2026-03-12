@@ -13,14 +13,15 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.5.7-beta",
+        "latestVersion": "1.5.8-beta",
+        "latestVersionCode": 158,
         "minSupportedVersion": "1.5.7-beta",
         "mandatory": true,
         "releaseChannel": "beta",
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release.apk",
-        "notes": "Changelog 12 Mar 2026:\n- Introdotto un nuovo DNS resolver interno all’app, senza utilizzare il resolver di sistema.",
+        "notes": "Changelog 12 Mar 2026:\n- Bugs Fix",
         "publishedAt": "2026-03-12",
-        "buildCommit": "215ec54750156902e8e3f566c0485ee1a50e62ad",
+        "buildCommit": "d65d255d9f825f79d51ed797af00ed1771e8d3cf",
         "appEnabled": true
       }
     }

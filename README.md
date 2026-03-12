@@ -37,9 +37,9 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.5.7-beta` |
+| Versione corrente | `1.5.8-beta` |
 | Canale release | `beta` |
-| Version code | `12` |
+| Version code | `158` |
 | Pubblicata il | `2026-03-12` |
 | Versione minima supportata | `1.5.7-beta` |
 | Aggiornamento obbligatorio | `true` |
@@ -61,7 +61,7 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 ## Note Di Rilascio
 
 Changelog 12 Mar 2026:
-- Introdotto un nuovo DNS resolver interno all’app, senza utilizzare il resolver di sistema.
+- Bugs Fix
 
 ## Struttura Repository
 
