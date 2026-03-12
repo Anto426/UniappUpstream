@@ -37,11 +37,11 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.5.6-beta` |
+| Versione corrente | `1.5.7-beta` |
 | Canale release | `beta` |
-| Version code | `11` |
+| Version code | `12` |
 | Pubblicata il | `2026-03-12` |
-| Versione minima supportata | `1.5.6-beta` |
+| Versione minima supportata | `1.5.7-beta` |
 | Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
@@ -61,7 +61,7 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 ## Note Di Rilascio
 
 Changelog 12 Mar 2026:
-- Bugfix: Risolti i problemi di rete, timeout e connessione (UnknownHostException) introdotti dal MIUI Battery Saver aggiungendo i permessi di stato network.
+- Introdotto un nuovo DNS resolver interno all’app, senza utilizzare il resolver di sistema.
 
 ## Struttura Repository
 

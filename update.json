@@ -13,14 +13,14 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.5.6-beta",
-        "minSupportedVersion": "1.5.6-beta",
+        "latestVersion": "1.5.7-beta",
+        "minSupportedVersion": "1.5.7-beta",
         "mandatory": true,
         "releaseChannel": "beta",
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release.apk",
-        "notes": "Changelog 12 Mar 2026:\n- Bugfix: Risolti i problemi di rete, timeout e connessione (UnknownHostException) introdotti dal MIUI Battery Saver aggiungendo i permessi di stato network.",
+        "notes": "Changelog 12 Mar 2026:\n- Introdotto un nuovo DNS resolver interno all’app, senza utilizzare il resolver di sistema.",
         "publishedAt": "2026-03-12",
-        "buildCommit": "864fcb385ff53ce7484b67b68fbe7680a6335c35",
+        "buildCommit": "215ec54750156902e8e3f566c0485ee1a50e62ad",
         "appEnabled": true
       }
     }
