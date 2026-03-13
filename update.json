@@ -22,7 +22,7 @@
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release.apk",
         "notes": "Changelog 13 Mar 2026:\n- Aggiunte notifiche push",
         "publishedAt": "2026-03-13",
-        "buildCommit": "19ca6a51d2f1c69bf3757eb2c34d8a59a19f7ac0",
+        "buildCommit": "7f342a60aefef4cfb4346ae70982583ed3a5486a",
         "appEnabled": true
       }
     }
