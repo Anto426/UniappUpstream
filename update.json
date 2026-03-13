@@ -13,16 +13,16 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.6.2-beta",
-        "latestVersionCode": 163,
-        "minSupportedVersion": "1.6.2-beta",
-        "minSupportedVersionCode": 163,
+        "latestVersion": "1-6-3-beta",
+        "latestVersionCode": 164,
+        "minSupportedVersion": "1-6-3-beta",
+        "minSupportedVersionCode": 164,
         "mandatory": true,
         "releaseChannel": "beta",
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release.apk",
-        "notes": "Changelog 13 Mar 2026:\n- Fix calcolo cfu",
+        "notes": "Changelog 13 Mar 2026:\n- Fix Unimol wifi firewall",
         "publishedAt": "2026-03-13",
-        "buildCommit": "7473fe5a5e80da2fa46fdb2f9d0c8ab53ac02be7",
+        "buildCommit": "98d4bccfc633b90290384274343e5e5fd985587d",
         "appEnabled": true
       }
     }
