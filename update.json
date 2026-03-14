@@ -22,7 +22,7 @@
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release.apk",
         "notes": "Changelog 14 Mar 2026:\n- Aggiornamento automatico certificati TLS.",
         "publishedAt": "2026-03-14",
-        "buildCommit": "1e188a62748118c79bed5b170a3e579b2c9bb80b",
+        "buildCommit": "900e6e53033e08e63e4c8a2a29d1afba5d475185",
         "appEnabled": true
       }
     }
