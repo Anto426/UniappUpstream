@@ -1,141 +1,288 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scarica UniApp</title>
-    <meta name="description" content="Scarica l'ultima versione di UniApp per Android.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Scarica l'ultima versione di UniApp per Android."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
     <div class="background-effects">
-        <div class="glow glow-1"></div>
-        <div class="glow glow-2"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
     </div>
-    
+
     <main class="container">
-        <div class="glass-card">
-            <div class="channel-selector">
-                <div class="selector-bg" id="selector-bg"></div>
-                <button class="channel-btn active" id="tab-beta" onclick="setChannel('beta')">Beta</button>
-                <button class="channel-btn" id="tab-stable" onclick="setChannel('stable')">Stabile</button>
-            </div>
-
-            <div class="icon-container">
-                <img src="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/assets/uniapp-icon.webp" alt="UniApp Icon" class="app-icon" onerror="this.src='https://via.placeholder.com/120/1f1f2e/ffffff?text=UniApp'">
-            </div>
-            
-            <h1 class="title">UniApp</h1>
-            <p class="subtitle">L'esperienza definitiva per studenti universitari.</p>
-            
-            <div class="release-info">
-                <div class="info-badge">
-                    <div class="badge-icon badge-blue">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg>
-                    </div>
-                    <div class="badge-content">
-                        <span class="info-label">Versione</span>
-                        <span class="info-value" id="val-version">1.3.3</span>
-                    </div>
-                </div>
-                <div class="info-badge">
-                    <div class="badge-icon badge-purple">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
-                    </div>
-                    <div class="badge-content">
-                        <span class="info-label">Dimensione</span>
-                        <span class="info-value" id="val-size">97.8 MB</span>
-                    </div>
-                </div>
-                <div class="info-badge">
-                    <div class="badge-icon badge-green">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
-                    </div>
-                    <div class="badge-content">
-                        <span class="info-label">Rilascio</span>
-                        <span class="info-value" id="val-date">08 Mar 2026</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="download-options">
-                <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk" class="download-btn download-beta" id="btn-beta">
-                    <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    Scarica APK Beta
-                </a>
-
-                <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk" class="download-btn download-stable" id="btn-stable" style="display: none;">
-                    <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    Scarica APK Stabile
-                </a>
-            </div>
-            
+      <div class="glass-card">
+        <div class="channel-selector">
+          <div class="selector-bg" id="selector-bg"></div>
+          <button
+            class="channel-btn active"
+            id="tab-beta"
+            onclick="setChannel('beta')"
+          >
+            Beta
+          </button>
+          <button
+            class="channel-btn"
+            id="tab-stable"
+            onclick="setChannel('stable')"
+          >
+            Stabile
+          </button>
         </div>
+
+        <div class="icon-container">
+          <img
+            src="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/assets/uniapp-icon.webp"
+            alt="UniApp Icon"
+            class="app-icon"
+            onerror="
+              this.src =
+                'https://via.placeholder.com/120/1f1f2e/ffffff?text=UniApp'
+            "
+          />
+        </div>
+
+        <h1 class="title">UniApp</h1>
+        <p class="subtitle">
+          L'esperienza definitiva per studenti universitari.
+        </p>
+
+        <div class="release-info">
+          <div class="info-badge">
+            <div class="badge-icon badge-blue">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"
+                />
+                <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+              </svg>
+            </div>
+            <div class="badge-content">
+              <span class="info-label">Versione</span>
+              <span class="info-value" id="val-version">1.3.3</span>
+            </div>
+          </div>
+          <div class="info-badge">
+            <div class="badge-icon badge-purple">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                ></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <div class="badge-content">
+              <span class="info-label">Dimensione</span>
+              <span class="info-value" id="val-size">97.8 MB</span>
+            </div>
+          </div>
+          <div class="info-badge">
+            <div class="badge-icon badge-green">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect>
+                <line x1="16" x2="16" y1="2" y2="6"></line>
+                <line x1="8" x2="8" y1="2" y2="6"></line>
+                <line x1="3" x2="21" y1="10" y2="10"></line>
+              </svg>
+            </div>
+            <div class="badge-content">
+              <span class="info-label">Rilascio</span>
+              <span class="info-value" id="val-date">08 Mar 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-options">
+          <a
+            href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/beta/androidApp-release.apk"
+            class="download-btn download-beta"
+            id="btn-beta"
+          >
+            <svg
+              class="download-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Scarica APK Beta
+          </a>
+
+          <a
+            href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk"
+            class="download-btn download-stable"
+            id="btn-stable"
+            style="display: none"
+          >
+            <svg
+              class="download-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Scarica APK Stabile
+          </a>
+        </div>
+      </div>
     </main>
 
     <script>
-        const releaseData = {
-            stable: {
-                version: "1.3.3",
-                size: "97.8 MB",
-                date: "08 Mar 2026"
-            },
-            beta: {
-                version: "1.3.3-beta",
-                size: "97.8 MB",
-                date: "08 Mar 2026"
-            }
-        };
+      const releaseData = {
+        stable: {
+          version: "1.3.3",
+          size: "97.8 MB",
+          date: "08 Mar 2026",
+        },
+        beta: {
+          version: "1.3.3-beta",
+          size: "97.8 MB",
+          date: "08 Mar 2026",
+        },
+      };
 
-        function setChannel(channel) {
-            document.getElementById('tab-stable').classList.toggle('active', channel === 'stable');
-            document.getElementById('tab-beta').classList.toggle('active', channel === 'beta');
-            
-            const bg = document.getElementById('selector-bg');
-            if(channel === 'beta') {
-                bg.style.transform = 'translateX(0)';
-            } else {
-                bg.style.transform = 'translateX(100%)';
-            }
+      let updateJson = null;
 
-            document.getElementById('val-version').innerText = releaseData[channel].version;
-            document.getElementById('val-size').innerText = releaseData[channel].size;
-            document.getElementById('val-date').innerText = releaseData[channel].date;
+      function setChannel(channel) {
+        document
+          .getElementById("tab-stable")
+          .classList.toggle("active", channel === "stable");
+        document
+          .getElementById("tab-beta")
+          .classList.toggle("active", channel === "beta");
 
-            document.getElementById('btn-stable').style.display = channel === 'stable' ? 'flex' : 'none';
-            document.getElementById('btn-beta').style.display = channel === 'beta' ? 'flex' : 'none';
+        const bg = document.getElementById("selector-bg");
+        if (channel === "beta") {
+          bg.style.transform = "translateX(0)";
+        } else {
+          bg.style.transform = "translateX(100%)";
         }
 
-        fetch('https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/update.json')
-            .then(res => res.json())
-            .then(json => {
-                if(json && json.channels) {
-                    if (json.channels.stable?.release) {
-                        releaseData.stable.version = json.channels.stable.release.latestVersion;
-                        const d = new Date(json.channels.stable.release.publishedAt);
-                        if (!isNaN(d)) releaseData.stable.date = d.toLocaleDateString('it-IT', { day: '2-digit', month: 'short', year: 'numeric' });
-                    }
-                    if (json.channels.beta?.release) {
-                        releaseData.beta.version = json.channels.beta.release.latestVersion;
-                        const d = new Date(json.channels.beta.release.publishedAt);
-                        if (!isNaN(d)) releaseData.beta.date = d.toLocaleDateString('it-IT', { day: '2-digit', month: 'short', year: 'numeric' });
-                    }
-                    const activeTab = document.getElementById('tab-beta').classList.contains('active') ? 'beta' : 'stable';
-                    setChannel(activeTab);
-                }
-            })
-            .catch(err => console.log("Could not fetch remote update JSON:", err));
+        document.getElementById("val-version").innerText =
+          releaseData[channel].version;
+        document.getElementById("val-size").innerText =
+          releaseData[channel].size;
+        document.getElementById("val-date").innerText =
+          releaseData[channel].date;
+
+        document.getElementById("btn-stable").href =
+          channel === "beta" ||
+          !updateJson ||
+          !updateJson.channels.stable?.release
+            ? null
+            : updateJson.channels.stable.release.downloadUrl;
+        document.getElementById("btn-stable").style.display =
+          channel === "stable" ? "flex" : "none";
+        document.getElementById("btn-beta").href =
+          channel === "beta" && updateJson && updateJson.channels.beta?.release
+            ? updateJson.channels.beta.release.downloadUrl
+            : null;
+        document.getElementById("btn-beta").style.display =
+          channel === "beta" ? "flex" : "none";
+      }
+
+      fetch(
+        "https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/update.json",
+      )
+        .then((res) => res.json())
+        .then((json) => {
+          updateJson = json;
+          if (json && json.channels) {
+            if (json.channels.stable?.release) {
+              releaseData.stable.version =
+                json.channels.stable.release.latestVersion;
+              const d = new Date(json.channels.stable.release.publishedAt);
+              if (!isNaN(d))
+                releaseData.stable.date = d.toLocaleDateString("it-IT", {
+                  day: "2-digit",
+                  month: "short",
+                  year: "numeric",
+                });
+            }
+            if (json.channels.beta?.release) {
+              releaseData.beta.version =
+                json.channels.beta.release.latestVersion;
+              const d = new Date(json.channels.beta.release.publishedAt);
+              if (!isNaN(d))
+                releaseData.beta.date = d.toLocaleDateString("it-IT", {
+                  day: "2-digit",
+                  month: "short",
+                  year: "numeric",
+                });
+            }
+            const activeTab = document
+              .getElementById("tab-beta")
+              .classList.contains("active")
+              ? "beta"
+              : "stable";
+            setChannel(activeTab);
+          }
+        })
+        .catch((err) =>
+          console.log("Could not fetch remote update JSON:", err),
+        );
     </script>
-</body>
+  </body>
 </html>
