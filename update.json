@@ -21,9 +21,10 @@
         "releaseChannel": "beta",
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release.apk",
         "notes": "Changelog 14 Mar 2026:\n- Aggiornamento automatico certificati TLS.",
-        "publishedAt": "2026-03-14",
-        "buildCommit": "900e6e53033e08e63e4c8a2a29d1afba5d475185",
-        "appEnabled": true
+        "publishedAt": "2026-03-15",
+        "buildCommit": "7a164f138e8c653d6f19886c40028e6618c8d0e5",
+        "appEnabled": true,
+        "description": "UniApp è l'applicazione all-in-one per gli studenti universitari. Gestisci la tua carriera, visualizza il libretto, prenota esami e molto altro, tutto in un'unica interfaccia moderna e veloce."
       }
     }
   }

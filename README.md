@@ -21,6 +21,13 @@
   <a href="./update.json"><img alt="Manifest JSON" src="https://img.shields.io/static/v1?label=&message=MANIFEST%20JSON&color=cb5a2e&style=for-the-badge"></a>
 </p>
 
+
+## Descrizione
+UniApp è l'applicazione all-in-one per gli studenti universitari. Gestisci la tua carriera, visualizza il libretto, prenota esami e molto altro, tutto in un'unica interfaccia moderna e veloce.
+
+
+
+
 ## Panoramica
 
 Questo e' il repository di deploy delle build Android di UniApp.
@@ -40,7 +47,7 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | Versione corrente | `1.6.5-beta` |
 | Canale release | `beta` |
 | Version code | `168` |
-| Pubblicata il | `2026-03-14` |
+| Pubblicata il | `2026-03-15` |
 | Versione minima supportata | `1.6.5-beta` |
 | Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
@@ -68,6 +75,8 @@ Changelog 14 Mar 2026:
 ```text
 assets/
   uniapp-icon.webp
+  screenshots/
+    ...
 src/
   release/
     stable/
