@@ -59,7 +59,7 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | Repository | `Anto426-Project/UniappUpstream` |
 | Versione corrente | `1.6.5-beta` |
 | Canale release | `beta` |
-| Version code | `168` |
+| Version code | `169` |
 | Pubblicata il | `2026-03-15` |
 | Versione minima supportata | `1.6.5-beta` |
 | Aggiornamento obbligatorio | `true` |
