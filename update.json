@@ -22,9 +22,9 @@
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release.apk",
         "notes": "Changelog 14 Mar 2026:\n- Aggiornamento automatico certificati TLS.",
         "publishedAt": "2026-03-15",
-        "buildCommit": "b68ff7d9904d0599a6d9a7bc76eb5f7cf6b4a788",
+        "buildCommit": "ec4fa734eb405e076e0ba73392ddcd5078ca85b7",
         "appEnabled": true,
-        "description": "Stanchi della vecchia app universitaria?\nScopri UniApp, l’app non ufficiale per gli studenti dell’Università degli Studi del Molise, sviluppata in autonomia da Anto426. Gestisci la tua carriera, consulta il libretto, prenota gli esami e accedi rapidamente alle informazioni più importanti, tutto in un’unica interfaccia moderna, semplice e veloce."
+        "description": "Stanchi della vecchia app universitaria?\nScopri UniApp, l’app non ufficiale per gli studenti dell’Università degli Studi del Molise, sviluppata in autonomia da Anto426. Completamente riscritta in Kotlin nativo, utilizza le più recenti tecnologie Material 3 Design e Jetpack Compose per offrire un’esperienza moderna, fluida e intuitiva. Gestisci la tua carriera, consulta il libretto, prenota gli esami e accedi rapidamente alle informazioni più importanti, tutto in un’unica interfaccia veloce e curata."
       }
     }
   }
