@@ -60,14 +60,14 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | Versione corrente | `1.6.5-beta` |
 | Canale release | `beta` |
 | Version code | `169` |
-| Pubblicata il | `2026-03-15` |
+| Pubblicata il | `2026-03-16` |
 | Versione minima supportata | `1.6.5-beta` |
 | Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
 | File APK | `src/release/beta/androidApp-release.apk` |
-| Dimensione APK | `100.8 MB` |
+| Dimensione APK | `102.0 MB` |
 
 ## Link Rapidi
 
