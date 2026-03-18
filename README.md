@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk"><img alt="APK stabile" src="https://img.shields.io/static/v1?label=&message=STABILE%20APK&color=1f6f5f&style=for-the-badge"></a>
-  <a href="https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release-unsigned.apk"><img alt="APK beta" src="https://img.shields.io/static/v1?label=&message=BETA%20APK&color=d97706&style=for-the-badge"></a>
+  <a href="https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-arm64-v8a-release.apk"><img alt="APK beta" src="https://img.shields.io/static/v1?label=&message=BETA%20APK&color=d97706&style=for-the-badge"></a>
   <a href="./update.json"><img alt="Manifest JSON" src="https://img.shields.io/static/v1?label=&message=MANIFEST%20JSON&color=cb5a2e&style=for-the-badge"></a>
 </p>
 
@@ -60,22 +60,22 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | Versione corrente | `1.6.8-beta` |
 | Canale release | `beta` |
 | Version code | `171` |
-| Pubblicata il | `2026-03-17` |
+| Pubblicata il | `2026-03-18` |
 | Versione minima supportata | `1.6.8-beta` |
 | Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
-| File APK | `src/release/beta/androidApp-release-unsigned.apk` |
-| Dimensione APK | `51.4 MB` |
+| File APK | `src/release/beta/androidApp-arm64-v8a-release.apk` |
+| Dimensione APK | `22.2 MB` |
 
 ## Link Rapidi
 
-- [Scarica APK corrente](https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release-unsigned.apk)
+- [Scarica APK corrente](https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-arm64-v8a-release.apk)
 - [Metadati del canale corrente](./src/release/beta/output-metadata.json)
-- [Percorso APK del canale corrente](./src/release/beta/androidApp-release-unsigned.apk)
+- [Percorso APK del canale corrente](./src/release/beta/androidApp-arm64-v8a-release.apk)
 - [APK stabile](https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk)
-- [APK beta](https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release-unsigned.apk)
+- [APK beta](https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-arm64-v8a-release.apk)
 - [Apri il manifest aggiornamenti](./update.json)
 
 ## Note Di Rilascio
@@ -114,7 +114,7 @@ I campi principali sono:
 
 `downloadUrl` punta attualmente a:
 
-`https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-release-unsigned.apk`
+`https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-arm64-v8a-release.apk`
 
 ## Flusso Di Pubblicazione
 
