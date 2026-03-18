@@ -27,6 +27,14 @@ Stanchi della vecchia app universitaria?
 Scopri UniApp, l’app non ufficiale per gli studenti dell’Università degli Studi del Molise, sviluppata in autonomia da Anto426. Completamente riscritta in Kotlin nativo, utilizza le più recenti tecnologie Material 3 Design e Jetpack Compose per offrire un’esperienza moderna, fluida e intuitiva. Gestisci la tua carriera, consulta il libretto, prenota gli esami e accedi rapidamente alle informazioni più importanti, tutto in un’unica interfaccia veloce e curata.
 
 
+
+## Security Scan
+Quest'app e' stata scansionata per potenziali minacce.
+- [Report Analisi VirusTotal](incoming/release/androidApp-arm64-v8a-release.apk=https://www.virustotal.com/gui/file-analysis/ZGU5YjI3NWE5ODFiNTE5ZGY4MTAwZGViNDZjYTJjMmM6MTc3Mzg0NTExMg==/detection)
+
+[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](incoming/release/androidApp-arm64-v8a-release.apk=https://www.virustotal.com/gui/file-analysis/ZGU5YjI3NWE5ODFiNTE5ZGY4MTAwZGViNDZjYTJjMmM6MTc3Mzg0NTExMg==/detection)
+
+
 ## Screenshot
 
 <p align="center">
