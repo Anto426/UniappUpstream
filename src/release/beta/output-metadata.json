@@ -16,7 +16,7 @@
         }
       ],
       "attributes": [],
-      "versionCode": 172,
+      "versionCode": 173,
       "versionName": "1.6.9-beta",
       "outputFile": "androidApp-arm64-v8a-release.apk"
     }
