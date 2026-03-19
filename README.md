@@ -30,22 +30,23 @@ Scopri UniApp, l’app non ufficiale per gli studenti dell’Università degli S
 
 ## Security Scan
 Quest'app e' stata scansionata per potenziali minacce.
-- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/MThhOGRjZmE0ZDg5OGYyNjdkMTBkYWM2YzJlZjk3YmY6MTc3Mzg0NjQ2OA==/detection>)
+- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/MTZiMDRiNjEzMzgxNGQ0Y2MyY2FlZDVjZjdkMzJhZjE6MTc3Mzg3OTIzOQ==/detection>)
 
-[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/MThhOGRjZmE0ZDg5OGYyNjdkMTBkYWM2YzJlZjk3YmY6MTc3Mzg0NjQ2OA==/detection>)
+[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/MTZiMDRiNjEzMzgxNGQ0Y2MyY2FlZDVjZjdkMzJhZjE6MTc3Mzg3OTIzOQ==/detection>)
 
 
 ## Screenshot
 
 <p align="center">
-  <img src="./assets/screenshots/Screenshot_2026-03-15-16-48-44-34_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-15-16-48-46-36_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-15-16-48-47-89_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-15-16-48-49-53_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-15-16-48-54-46_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-15-16-48-57-13_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-15-16-51-35-25_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-15-16-51-40-34_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-30-16_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-34-76_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-38-31_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-41-79_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-45-91_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-54-79_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-58-69_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-03-19-00-45-10-58_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-03-19-00-45-14-76_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
 </p>
 
 
@@ -65,17 +66,17 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.6.8-beta` |
+| Versione corrente | `1.6.9-beta` |
 | Canale release | `beta` |
-| Version code | `171` |
-| Pubblicata il | `2026-03-18` |
-| Versione minima supportata | `1.6.8-beta` |
+| Version code | `172` |
+| Pubblicata il | `2026-03-19` |
+| Versione minima supportata | `1.6.9-beta` |
 | Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
 | File APK | `src/release/beta/androidApp-arm64-v8a-release.apk` |
-| Dimensione APK | `22.2 MB` |
+| Dimensione APK | `22.5 MB` |
 
 ## Link Rapidi
 
@@ -88,8 +89,8 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 
 ## Note Di Rilascio
 
-Changelog 17 Mar 2026:
-- Ridotte le dimensioni dell’APK e ottimizzato il codice.
+Changelog 19 Mar 2026:
+- Improved graphics, implemented multi-career support and added the professors section
 
 ## Struttura Repository
 
