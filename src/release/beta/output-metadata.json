@@ -16,8 +16,8 @@
         }
       ],
       "attributes": [],
-      "versionCode": 178,
-      "versionName": "1.7.0-beta",
+      "versionCode": 179,
+      "versionName": "1.7.1-beta",
       "outputFile": "androidApp-arm64-v8a-release.apk"
     }
   ],
