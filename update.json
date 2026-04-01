@@ -22,7 +22,7 @@
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-universal-release.apk",
         "notes": "Changelog 30 Mar 2026:\n- Aggiornamento dell’interfaccia utente per garantire maggiore coerenza con il design Material Expressive.",
         "publishedAt": "2026-04-01",
-        "buildCommit": "722d2dfca8d23318aa5c1205f00f483a69ff7f43",
+        "buildCommit": "cf3d5e329254149acf1e85be2283e1b58c3eab46",
         "appEnabled": true,
         "description": "Stanchi della vecchia app universitaria?\nScopri UniApp, l’app non ufficiale per gli studenti dell’Università degli Studi del Molise, sviluppata in autonomia da Anto426. Completamente riscritta in Kotlin nativo, utilizza le più recenti tecnologie Material 3 Design e Jetpack Compose per offrire un’esperienza moderna, fluida e intuitiva. Gestisci la tua carriera, consulta il libretto, prenota gli esami e accedi rapidamente alle informazioni più importanti, tutto in un’unica interfaccia veloce e curata."
       }
