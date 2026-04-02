@@ -11,8 +11,8 @@
       "type": "UNIVERSAL",
       "filters": [],
       "attributes": [],
-      "versionCode": 180,
-      "versionName": "1.7.2-beta",
+      "versionCode": 181,
+      "versionName": "1.7.3-beta",
       "outputFile": "androidApp-universal-release.apk"
     },
     {
@@ -24,8 +24,8 @@
         }
       ],
       "attributes": [],
-      "versionCode": 180,
-      "versionName": "1.7.2-beta",
+      "versionCode": 181,
+      "versionName": "1.7.3-beta",
       "outputFile": "androidApp-arm64-v8a-release.apk"
     },
     {
@@ -37,8 +37,8 @@
         }
       ],
       "attributes": [],
-      "versionCode": 180,
-      "versionName": "1.7.2-beta",
+      "versionCode": 181,
+      "versionName": "1.7.3-beta",
       "outputFile": "androidApp-armeabi-v7a-release.apk"
     }
   ],

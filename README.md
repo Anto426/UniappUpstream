@@ -30,9 +30,9 @@ Scopri UniApp, l’app non ufficiale per gli studenti dell’Università degli S
 
 ## Security Scan
 Quest'app e' stata scansionata per potenziali minacce.
-- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/ZWEzNGU2MmYwZTY0M2MyODgwYTMyNTJlZTdiZGMwYjc6MTc3NTE1ODY4MA==/detection>)
+- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/YjJmYzg2OWI4Zjc3MzFiNmUyNTVjNjBkMmIxMjU4MDU6MTc3NTE2OTk3Mg==/detection>)
 
-[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/ZWEzNGU2MmYwZTY0M2MyODgwYTMyNTJlZTdiZGMwYjc6MTc3NTE1ODY4MA==/detection>)
+[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/YjJmYzg2OWI4Zjc3MzFiNmUyNTVjNjBkMmIxMjU4MDU6MTc3NTE2OTk3Mg==/detection>)
 
 
 ## Screenshot
@@ -66,17 +66,17 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.7.2-beta` |
+| Versione corrente | `1.7.3-beta` |
 | Canale release | `beta` |
-| Version code | `180` |
+| Version code | `181` |
 | Pubblicata il | `2026-04-02` |
-| Versione minima supportata | `1.7.2-beta` |
+| Versione minima supportata | `1.7.3-beta` |
 | Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
 | File APK | `src/release/beta/androidApp-universal-release.apk` |
-| Dimensione APK | `51.3 MB` |
+| Dimensione APK | `51.4 MB` |
 
 ## Link Rapidi
 
@@ -89,8 +89,12 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 
 ## Note Di Rilascio
 
-Changelog 30 Mar 2026:
-- Aggiornamento dell’interfaccia utente per garantire maggiore coerenza con il design Material Expressive.
+Changelog 03 Apr 2026:
+- Aggiornata la Home
+- Risolti numerosi bug
+- Ottimizzata l’app
+- Aggiunto modulo per gli orari dei pullman per le sedi principali
+- Riabilitate le notifiche
 
 ## Struttura Repository
 
