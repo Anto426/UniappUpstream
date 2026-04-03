@@ -30,23 +30,22 @@ Scopri UniApp, l’app non ufficiale per gli studenti dell’Università degli S
 
 ## Security Scan
 Quest'app e' stata scansionata per potenziali minacce.
-- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/MzgzZDNiMDI2NDE1ODVjYzJmYzIzNzZlOThlYWM1OTU6MTc3NTI1MTI1OA==/detection>)
+- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/MjVhN2NhYmY2ZmIyYTgxNzZjM2ZkYWJlYWEzMjE4NDQ6MTc3NTI1Mzk3MA==/detection>)
 
-[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/MzgzZDNiMDI2NDE1ODVjYzJmYzIzNzZlOThlYWM1OTU6MTc3NTI1MTI1OA==/detection>)
+[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/MjVhN2NhYmY2ZmIyYTgxNzZjM2ZkYWJlYWEzMjE4NDQ6MTc3NTI1Mzk3MA==/detection>)
 
 
 ## Screenshot
 
 <p align="center">
-  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-30-16_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-34-76_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-38-31_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-41-79_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-45-91_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-54-79_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-19-00-44-58-69_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-19-00-45-10-58_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
-  <img src="./assets/screenshots/Screenshot_2026-03-19-00-45-14-76_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-04-03-23-22-14-44_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-04-03-23-22-22-02_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-04-03-23-22-27-00_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-04-03-23-22-34-61_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-04-03-23-22-45-38_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-04-03-23-22-53-05_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-04-03-23-22-59-32_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
+  <img src="./assets/screenshots/Screenshot_2026-04-03-23-23-02-77_92b74ce0392afcb9dbc7c9e6841482f8.jpg" width="200" style="margin: 10px;" alt="Screenshot">
 </p>
 
 
@@ -66,11 +65,11 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.7.4-beta` |
+| Versione corrente | `1.7.5-beta` |
 | Canale release | `beta` |
-| Version code | `182` |
+| Version code | `183` |
 | Pubblicata il | `2026-04-03` |
-| Versione minima supportata | `1.7.4-beta` |
+| Versione minima supportata | `1.7.5-beta` |
 | Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
