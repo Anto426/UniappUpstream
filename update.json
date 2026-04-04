@@ -13,21 +13,21 @@
     },
     "beta": {
       "release": {
-        "latestVersion": "1.7.5-beta",
-        "latestVersionCode": 183,
-        "minSupportedVersion": "1.7.5-beta",
-        "minSupportedVersionCode": 183,
+        "latestVersion": "1.7.6-beta",
+        "latestVersionCode": 184,
+        "minSupportedVersion": "1.7.6-beta",
+        "minSupportedVersionCode": 184,
         "mandatory": true,
         "releaseChannel": "beta",
         "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-universal-release.apk",
         "downloadUrlsByAbi": {
           "universal": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-universal-release.apk",
-          "armeabi-v7a": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-armeabi-v7a-release.apk",
-          "arm64-v8a": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-arm64-v8a-release.apk"
+          "arm64-v8a": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-arm64-v8a-release.apk",
+          "armeabi-v7a": "https://github.com/Anto426-Project/UniappUpstream/raw/main/src/release/beta/androidApp-armeabi-v7a-release.apk"
         },
-        "notes": "Changelog 03 Apr 2026:\n- Vari fix",
-        "publishedAt": "2026-04-03",
-        "buildCommit": "934a70a36e592d1d1bfcf271e1160116558419ff",
+        "notes": "Changelog 04 Apr 2026:\n- fix",
+        "publishedAt": "2026-04-04",
+        "buildCommit": "737280010e1e9c276d359f239ff3a76863aca14f",
         "appEnabled": true,
         "description": "Stanchi della vecchia app universitaria?\nScopri UniApp, l’app non ufficiale per gli studenti dell’Università degli Studi del Molise, sviluppata in autonomia da Anto426. Completamente riscritta in Kotlin nativo, utilizza le più recenti tecnologie Material 3 Design e Jetpack Compose per offrire un’esperienza moderna, fluida e intuitiva. Gestisci la tua carriera, consulta il libretto, prenota gli esami e accedi rapidamente alle informazioni più importanti, tutto in un’unica interfaccia veloce e curata."
       }
