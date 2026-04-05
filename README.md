@@ -30,9 +30,9 @@ Scopri UniApp, l’app non ufficiale per gli studenti dell’Università degli S
 
 ## Security Scan
 Quest'app e' stata scansionata per potenziali minacce.
-- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/MmVkYjJhYmFlNWI1MGI0ZGQ2ZjVjYzgwZDY4ZjgwZDk6MTc3NTMxODYxNA==/detection>)
+- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/ZDE5MTMxMjA0ZDJhNmIwMmUzYTNhZjYwMmVhZjYxMTA6MTc3NTM5MjIyMQ==/detection>)
 
-[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/MmVkYjJhYmFlNWI1MGI0ZGQ2ZjVjYzgwZDY4ZjgwZDk6MTc3NTMxODYxNA==/detection>)
+[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/ZDE5MTMxMjA0ZDJhNmIwMmUzYTNhZjYwMmVhZjYxMTA6MTc3NTM5MjIyMQ==/detection>)
 
 
 ## Screenshot
@@ -68,14 +68,14 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | Versione corrente | `1.7.7-beta` |
 | Canale release | `beta` |
 | Version code | `185` |
-| Pubblicata il | `2026-04-04` |
+| Pubblicata il | `2026-04-05` |
 | Versione minima supportata | `1.7.7-beta` |
 | Aggiornamento obbligatorio | `true` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
 | File APK | `src/release/beta/androidApp-universal-release.apk` |
-| Dimensione APK | `51.8 MB` |
+| Dimensione APK | `52.0 MB` |
 
 ## Link Rapidi
 
