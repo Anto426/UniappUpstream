@@ -27,7 +27,7 @@
         },
         "notes": "Changelog 06 Apr 2026:\n- Varie ottimizazioni per Gemini Nano",
         "publishedAt": "2026-04-06",
-        "buildCommit": "9a41a1672e37df1dee8d979ec127e3af24d52528",
+        "buildCommit": "646b18abff494d4a955c994784965b4c386cec24",
         "appEnabled": true,
         "description": "Stanchi della vecchia app universitaria?\nScopri UniApp, l’app non ufficiale per gli studenti dell’Università degli Studi del Molise, sviluppata in autonomia da Anto426. Completamente riscritta in Kotlin nativo, utilizza le più recenti tecnologie Material 3 Design e Jetpack Compose per offrire un’esperienza moderna, fluida e intuitiva. Gestisci la tua carriera, consulta il libretto, prenota gli esami e accedi rapidamente alle informazioni più importanti, tutto in un’unica interfaccia veloce e curata."
       }
