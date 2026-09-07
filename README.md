@@ -5,10 +5,6 @@
 <h1 align="center">UniApp Upstream</h1>
 
 
-<p align="center">
-  <img alt="Canale beta" src="https://img.shields.io/static/v1?label=&message=CANALE%20BETA&color=d97706&style=for-the-badge">
-</p>
-
 
 <p align="center">
   Repository di distribuzione per il canale release Android di <strong>UniApp</strong>.
@@ -16,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk"><img alt="APK stabile" src="https://img.shields.io/static/v1?label=&message=STABILE%20APK&color=1f6f5f&style=for-the-badge"></a>
+  <a href="https://github.com/Anto426-Project/UniappUpstream/releases/download/v2.0.0%2B200/androidApp-release.apk"><img alt="APK stabile" src="https://img.shields.io/static/v1?label=&message=STABILE%20APK&color=1f6f5f&style=for-the-badge"></a>
   <a href="https://github.com/Anto426-Project/UniappUpstream/releases/download/v1.8.9-beta%2B199/androidApp-universal-release.apk"><img alt="APK beta" src="https://img.shields.io/static/v1?label=&message=BETA%20APK&color=d97706&style=for-the-badge"></a>
   <a href="./update.json"><img alt="Manifest JSON" src="https://img.shields.io/static/v1?label=&message=MANIFEST%20JSON&color=cb5a2e&style=for-the-badge"></a>
 </p>
@@ -30,9 +26,9 @@ Scopri UniApp, l’app non ufficiale per gli studenti dell’Università degli S
 
 ## Security Scan
 Quest'app e' stata scansionata per potenziali minacce.
-- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/NzQ4MmEyM2JhODg0NzdjMjc1NTE1NmYyNDEyZWRiMDY6MTc3OTcxMzA4MQ==/detection>)
+- [Report Analisi VirusTotal](<https://www.virustotal.com/gui/file-analysis/OWQ2NzZjZTY5N2U0NjI1YjZlNDFmMjE4N2UzY2Q4YmU6MTc4ODgwMDA2NQ==/detection>)
 
-[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/NzQ4MmEyM2JhODg0NzdjMjc1NTE1NmYyNDEyZWRiMDY6MTc3OTcxMzA4MQ==/detection>)
+[![VirusTotal Scan Result](https://img.shields.io/badge/VirusTotal-Scan_Report-blue)](<https://www.virustotal.com/gui/file-analysis/OWQ2NzZjZTY5N2U0NjI1YjZlNDFmMjE4N2UzY2Q4YmU6MTc4ODgwMDA2NQ==/detection>)
 
 
 ## Screenshot
@@ -65,36 +61,31 @@ E' pensato per restare semplice, stabile e leggibile anche da script:
 | --- | --- |
 | App | UniApp |
 | Repository | `Anto426-Project/UniappUpstream` |
-| Versione corrente | `1.8.9-beta` |
-| Canale release | `beta` |
-| Version code | `199` |
-| Pubblicata il | `2026-05-25` |
-| Versione minima supportata | `1.8.5-beta` |
-| Aggiornamento obbligatorio | `true` |
+| Versione corrente | `2.0.0` |
+| Canale release | `stabile` |
+| Version code | `200` |
+| Pubblicata il | `2026-09-07` |
+| Versione minima supportata | `1.1.0` |
+| Aggiornamento obbligatorio | `false` |
 | App abilitata | `true` |
 | Package name | `com.anto426.uniapp` |
 | Min SDK | `29` |
-| File APK | `src/release/beta/androidApp-universal-release.apk` |
-| Dimensione APK | `52.3 MB` |
+| File APK | `src/release/stable/androidApp-release.apk` |
+| Dimensione APK | `27.6 MB` |
 
 ## Link Rapidi
 
-- [Scarica APK corrente](https://github.com/Anto426-Project/UniappUpstream/releases/download/v1.8.9-beta%2B199/androidApp-universal-release.apk)
-- [Metadati del canale corrente](./src/release/beta/output-metadata.json)
-- [Percorso APK del canale corrente](./src/release/beta/androidApp-universal-release.apk)
-- [APK stabile](https://raw.githubusercontent.com/Anto426-Project/UniappUpstream/main/src/release/androidApp-release.apk)
+- [Scarica APK corrente](https://github.com/Anto426-Project/UniappUpstream/releases/download/v2.0.0%2B200/androidApp-release.apk)
+- [Metadati del canale corrente](./src/release/stable/output-metadata.json)
+- [Percorso APK del canale corrente](./src/release/stable/androidApp-release.apk)
+- [APK stabile](https://github.com/Anto426-Project/UniappUpstream/releases/download/v2.0.0%2B200/androidApp-release.apk)
 - [APK beta](https://github.com/Anto426-Project/UniappUpstream/releases/download/v1.8.9-beta%2B199/androidApp-universal-release.apk)
 - [Apri il manifest aggiornamenti](./update.json)
 
 ## Note Di Rilascio
 
-Changelog 25 May 2026:
-- Aggiunta la compilazione dei questionari con supporto a piu' pagine, domande obbligatorie e domande opzionali.
-- Gestiti piu' questionari per materia e collegata la nuova schermata di compilazione dalla lista questionari.
-- Corretto il QR studente usando il contenuto badge corretto e una generazione piu' vicina al badge ufficiale.
-- Aggiunto il pulsante per annullare gli appelli prenotati quando la prenotazione e' cancellabile.
-- Migliorate prenotazioni e cancellazioni dei trasporti, inclusa la selezione dei soli giorni feriali.
-- Uniformato il padding inferiore delle schermate di dettaglio e rifiniti toast e componenti comuni.
+Changelog 12 Mar 2026:
+- Bugs Fix
 
 ## Struttura Repository
 
@@ -127,7 +118,7 @@ I campi principali sono:
 
 `downloadUrl` punta attualmente a:
 
-`https://github.com/Anto426-Project/UniappUpstream/releases/download/v1.8.9-beta%2B199/androidApp-universal-release.apk`
+`https://github.com/Anto426-Project/UniappUpstream/releases/download/v2.0.0%2B200/androidApp-release.apk`
 
 ## Flusso Di Pubblicazione
 
