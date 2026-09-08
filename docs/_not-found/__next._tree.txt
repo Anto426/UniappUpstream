@@ -1,2 +1,2 @@
-:HL["/uniapp-upstream/_next/static/chunks/2lhfl5e7-8tvq.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"jA4j1gH9i7boFlxDIGa5P"}
+:HL["/UniappUpstream/_next/static/chunks/2lhfl5e7-8tvq.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"aMEy5Q1uQR4aTKDDImqYm"}
