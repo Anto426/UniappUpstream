@@ -1,19 +1,19 @@
 {
   "appEnabled": true,
   "description": "UniApp è un progetto indipendente per consultare e utilizzare i servizi dell’Università degli Studi del Molise.",
-  "minSupportedVersion": "2.0.0",
-  "minSupportedVersionCode": 200,
-  "mandatory": false,
-  "notes": "Aggiornamenti su un unico canale. Revisione dei testi informativi e della gestione delle segnalazioni.",
-  "latestVersion": "2.0.1",
-  "latestVersionCode": 201,
-  "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/releases/download/v2.0.1%2B201/androidApp-release.apk",
+  "minSupportedVersion": "2.0.3",
+  "minSupportedVersionCode": 203,
+  "mandatory": true,
+  "notes": "- Corretto il crash della home quando non sono disponibili notizie.\n- Ripristinati i test Android e i controlli sul sito prima della pubblicazione",
+  "latestVersion": "2.0.3",
+  "latestVersionCode": 203,
+  "downloadUrl": "https://github.com/Anto426-Project/uniapp-upstream/releases/download/v2.0.3%2B203/androidApp-release.apk",
   "downloadUrlsByAbi": {
-    "arm64-v8a": "https://github.com/Anto426-Project/UniappUpstream/releases/download/v2.0.1%2B201/androidApp-release.apk"
+    "arm64-v8a": "https://github.com/Anto426-Project/uniapp-upstream/releases/download/v2.0.3%2B203/androidApp-release.apk"
   },
   "sha256ByAbi": {
-    "arm64-v8a": "3d56a4a8f22b7981e942dc57d1f0da26323a1d7eef182e486d1232b1cdf6d32c"
+    "arm64-v8a": "ab6370d8bfb11b697664b5c6bfb675a0afe359a79d6523169a1d2e1da183db03"
   },
-  "publishedAt": "2026-09-08T18:12:52.877749+00:00",
-  "buildCommit": "f99a61faf98b93930a9b200a030bb87d92c88dad"
+  "publishedAt": "2026-09-08T20:03:35.124643+00:00",
+  "buildCommit": "a4957cb1504c2c87568adaefcb00869f55b35f1c"
 }
