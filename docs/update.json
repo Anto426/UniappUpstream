@@ -9,10 +9,10 @@
   "latestVersionCode": 201,
   "downloadUrl": "https://github.com/Anto426-Project/UniappUpstream/releases/download/v2.0.1%2B201/androidApp-release.apk",
   "downloadUrlsByAbi": {
-    "universal": "https://github.com/Anto426-Project/UniappUpstream/releases/download/v2.0.1%2B201/androidApp-release.apk"
+    "arm64-v8a": "https://github.com/Anto426-Project/UniappUpstream/releases/download/v2.0.1%2B201/androidApp-release.apk"
   },
   "sha256ByAbi": {
-    "universal": "3d56a4a8f22b7981e942dc57d1f0da26323a1d7eef182e486d1232b1cdf6d32c"
+    "arm64-v8a": "3d56a4a8f22b7981e942dc57d1f0da26323a1d7eef182e486d1232b1cdf6d32c"
   },
   "publishedAt": "2026-09-08T18:12:52.877749+00:00",
   "buildCommit": "f99a61faf98b93930a9b200a030bb87d92c88dad"
